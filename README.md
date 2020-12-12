@@ -11,6 +11,11 @@ The first thing to know is that your migration scripts need to be named accordin
 * `descr` is the change description (it may not contain any hyphens or spaces), and;
 * `(ddl|dml|dcl)` is the extension that indicates whether it changes the structure, data or security of the database.
 
+### Execution Order
+Scripts will be executed in the following order, after resolving which scripts need to be executed:
+1. 
+version -> ddl, dml, dcl.
+
 ## Connector Implementation Guide
 
 ### Schema ChangeLog Table
@@ -30,5 +35,6 @@ CREATE TABLE DbCtlChangeLog (
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ2MjIwMDUsMTU4OTMxNDg1M119
+eyJoaXN0b3J5IjpbMTQyMTU1MDIyOCwtMTA2NDYyMjAwNSwxNT
+g5MzE0ODUzXX0=
 -->
