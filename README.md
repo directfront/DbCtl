@@ -14,7 +14,7 @@ The first thing to know is that your migration scripts need to be named accordin
 ## Connector Implementation Guide
 
 ### Schema ChangeLog Table
-Below is the DbCtlChangeLog table schema for SQL Server
+Below is the `DbCtlChangeLog` table schema for SQL Server:
 
 ```
 CREATE TABLE DbCtlChangeLog (
@@ -30,5 +30,5 @@ CREATE TABLE DbCtlChangeLog (
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTMxNDg1M119
+eyJoaXN0b3J5IjpbLTEwNjQ2MjIwMDUsMTU4OTMxNDg1M119
 -->
