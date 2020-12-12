@@ -22,13 +22,15 @@ CREATE TABLE DbCtlChangeLog (
     Version VARCHAR(10),
 	Description VARCHAR(255),
 	Filename VARCHAR(255) NOT NULL,
-	Hash VARCHAR(64) NOT NULL CONSTRAINT UQ_DbCtlChangeLog_Hash UNIQUE,
+	Hash VARCHAR(64) NOT NULL 
+		CONSTRAINT UQ_DbCtlChangeLog_Hash UNIQUE,
     AppliedBy VARCHAR(50) NOT NULL,
-	ChangeDateTime DATETIME CONSTRAINT DF_DbCtlChangeLog_ChangeDateTime DEFAULT GETDATE(),
+	ChangeDateTime DATETIME 
+		CONSTRAINT DF_DbCtlChangeLog_ChangeDateTime DEFAULT GETDATE(),
     CONSTRAINT PK_DbCtlChangeLog PRIMARY KEY (Version, Filename)
 )
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ2MjIwMDUsMTU4OTMxNDg1M119
+eyJoaXN0b3J5IjpbODQ2MDY1NjA3LDE1ODkzMTQ4NTNdfQ==
 -->
