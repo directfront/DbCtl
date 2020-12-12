@@ -13,7 +13,8 @@ The first thing to know is that your migration scripts need to be named accordin
 
 ### Execution Order
 Scripts will be executed in the following order, after resolving which scripts need to be executed:
-1. Scripts are ordered by `version` number and then by the file extension where the file extension has the following precedence: `.ddl`, `.dml` and then `.dcl`.
+1. Scripts are first ordered by `version` number;
+2. Then, by file extension where the file extension has the following precedence: `.ddl`, `.dml` and then `.dcl`.
 
 ## Connector Implementation Guide
 
@@ -34,6 +35,6 @@ CREATE TABLE DbCtlChangeLog (
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk2NjA2MzQsLTEwNjQ2MjIwMDUsMT
-U4OTMxNDg1M119
+eyJoaXN0b3J5IjpbLTE3MzY1OTU1NTksLTEyMjk2NjA2MzQsLT
+EwNjQ2MjIwMDUsMTU4OTMxNDg1M119
 -->
