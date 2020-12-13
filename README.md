@@ -16,25 +16,7 @@ Scripts will be executed in the following order, after resolving which scripts n
 1. Scripts are first ordered by `version` number;
 2. Then, by file extension where the file extension has the following precedence: `.ddl`, `.dml` and `.dcl`.
 
-## Connector Implementation Guide
-
-### Schema ChangeLog Table
-Below is the `DbCtlChangeLog` table schema for SQL Server:
-
-```
-CREATE TABLE DbCtlChangeLog (
-	MigrationType VARCHAR(15) NOT NULL,
-    Version VARCHAR(10),
-	Description VARCHAR(255),
-	Filename VARCHAR(255) NOT NULL,
-	Hash VARCHAR(64) NOT NULL CONSTRAINT UQ_DbCtlChangeLog_Hash UNIQUE,
-    AppliedBy VARCHAR(50) NOT NULL,
-	ChangeDateTime DATETIME CONSTRAINT DF_DbCtlChangeLog_ChangeDateTime DEFAULT GETDATE(),
-    CONSTRAINT PK_DbCtlChangeLog PRIMARY KEY (Version, Filename)
-)
-```
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMDU3NTcwLC0xMjI5NjYwNjM0LC0xMD
-Y0NjIyMDA1LDE1ODkzMTQ4NTNdfQ==
+eyJoaXN0b3J5IjpbLTE4Njc1MTIzMSw0NDMwNTc1NzAsLTEyMj
+k2NjA2MzQsLTEwNjQ2MjIwMDUsMTU4OTMxNDg1M119
 -->
