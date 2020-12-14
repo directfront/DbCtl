@@ -1,6 +1,7 @@
 
 # DbCtl
 A database migration utility for various database systems. DbCtl is plugin-based which means that it can be extended to support a wide variety of database engines. 
+Icons made by [srip](https://www.flaticon.com/authors/srip) from [Flaticon](https://www.flaticon.com)
 
 ## Usage
 ### Filename Conventions
@@ -17,6 +18,7 @@ Scripts will be executed in the following order, after resolving which scripts n
 2. Then, by file extension where the file extension has the following precedence: `.ddl`, `.dml` and `.dcl`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc1MTIzMSw0NDMwNTc1NzAsLTEyMj
-k2NjA2MzQsLTEwNjQ2MjIwMDUsMTU4OTMxNDg1M119
+eyJoaXN0b3J5IjpbLTE4OTc2Nzk4NzksLTE4Njc1MTIzMSw0ND
+MwNTc1NzAsLTEyMjk2NjA2MzQsLTEwNjQ2MjIwMDUsMTU4OTMx
+NDg1M119
 -->
