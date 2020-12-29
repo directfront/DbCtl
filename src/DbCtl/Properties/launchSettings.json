@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DbCtl": {
+      "commandName": "Project",
+      "commandLineArgs": "-c xxx -n SqlServer -p . -i"
+    }
+  }
+}
