@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<Product>DbCtl</Product>
+		<Authors>Sydney du Plooy</Authors>
+		<Company>Direct Front Systems (Pty) Ltd.</Company>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/directfront/DbCtl.Sqlite</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/directfront/DbCtl.Sqlite</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIcon></PackageIcon>
+		<Copyright>Copyright 2020 Direct Front Systems (Pty) Ltd.</Copyright>
+		<Description>DbCtl command line application.</Description>
+		<PackageReleaseNotes>1.0.0 Initial release</PackageReleaseNotes>
+		<ApplicationIcon>database.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommandLineParser" Version="2.8.0" />
+		<PackageReference Include="DbCtl.Connectors" Version="4.0.0" />
+		<PackageReference Include="DbCtl.Core" Version="1.1.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+		<PackageReference Include="Serilog" Version="2.10.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+		<PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DbCtl.SqlServer\DbCtl.SqlServer.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+</Project>
