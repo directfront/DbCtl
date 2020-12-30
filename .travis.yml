@@ -8,7 +8,7 @@ install:
 
 script:
   - dotnet test src/DbCtl.Tests/DbCtl.Tests.csproj
-  - dotnet test src/DbCtl.Tests/DbCtl.SqlServer.Tests.csproj
+  - dotnet test src/DbCtl.SqlServer.Tests/DbCtl.SqlServer.Tests.csproj
   - dotnet build -c Release src/DbCtl.sln
 
 before_deploy:
