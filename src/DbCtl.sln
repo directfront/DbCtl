@@ -7,14 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCtl", "DbCtl\DbCtl.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68C16E9C-2CEA-4498-A02B-D364A3AD468D}"
 	ProjectSection(SolutionItems) = preProject
+		..\.travis.yml = ..\.travis.yml
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCtl.SqlServer", "DbCtl.SqlServer\DbCtl.SqlServer.csproj", "{9568E3A0-BE9C-47C5-8416-16913E871AB2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCtl.SqlServer.Tests", "DbCtl.SqlServer.UnitTests\DbCtl.SqlServer.Tests.csproj", "{130A259A-A205-47CA-A87E-4EB1BADC1F0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCtl.Tests", "DbCtl.Tests\DbCtl.Tests.csproj", "{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCtl.Tests", "DbCtl.Tests\DbCtl.Tests.csproj", "{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCtl.SqlServer.Tests", "DbCtl.SqlServer.Tests\DbCtl.SqlServer.Tests.csproj", "{09C2E5F1-7FAD-4E31-8D26-0EFF5E1E95FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,14 +31,14 @@ Global
 		{9568E3A0-BE9C-47C5-8416-16913E871AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9568E3A0-BE9C-47C5-8416-16913E871AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9568E3A0-BE9C-47C5-8416-16913E871AB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{130A259A-A205-47CA-A87E-4EB1BADC1F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{130A259A-A205-47CA-A87E-4EB1BADC1F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{130A259A-A205-47CA-A87E-4EB1BADC1F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{130A259A-A205-47CA-A87E-4EB1BADC1F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D21A6C8-3428-4200-ACA8-7F27FA5A7611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C2E5F1-7FAD-4E31-8D26-0EFF5E1E95FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C2E5F1-7FAD-4E31-8D26-0EFF5E1E95FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C2E5F1-7FAD-4E31-8D26-0EFF5E1E95FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C2E5F1-7FAD-4E31-8D26-0EFF5E1E95FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

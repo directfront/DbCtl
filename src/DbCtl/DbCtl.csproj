@@ -7,8 +7,8 @@
 		<Authors>Sydney du Plooy</Authors>
 		<Company>Direct Front Systems (Pty) Ltd.</Company>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<PackageProjectUrl>https://github.com/directfront/DbCtl.Sqlite</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/directfront/DbCtl.Sqlite</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/directfront/DbCtl</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/directfront/DbCtl</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageIcon></PackageIcon>
 		<Copyright>Copyright 2020 Direct Front Systems (Pty) Ltd.</Copyright>
