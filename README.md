@@ -1,3 +1,5 @@
+![Travis (.com)](https://img.shields.io/travis/com/directfront/DbCtl?style=plastic)
+
 # DbCtl
 
 A database migration utility for various database systems. DbCtl is plugin-based which means that it can be extended to support a wide variety of database engines.
@@ -15,6 +17,10 @@ A database migration utility for various database systems. DbCtl is plugin-based
   * Microsoft SQL Server
   * SQLite
   * more coming soon...
+
+## Overview
+
+![architecture](https://github.com/directfront/DbCtl/blob/main/images/dbctl-v0.1-Overview.png?raw=true)
 
 ## Installation
 
