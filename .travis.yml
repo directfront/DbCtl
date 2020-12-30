@@ -1,7 +1,7 @@
 os: linux
 dist: bionic
 language: csharp
-dotnet: 3.1.404
+dotnet: 5.0.101
 
 install:
   - dotnet restore src/DbCtl.sln
